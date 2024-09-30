@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'inter', sans-serif;
+ }
+ /* color */
+ :root{
+    --primary-_white-color: #FFFFFF;
+    --primary-deep-green-color: #27B671;
+    --primary-black-green-color: #243F37;
+    --logo-primary-color: #ff3f34;
+    --logo-secondary-color: #2ed573;
+    --plan-color: #fff;
+ }
+ 
+/* navbar design start */
+nav .navbar-brand img{
+    width: 215px;
+    height: 51.11px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--primary-_white-color) !important;
+    font-weight: 18px;
+}
+nav .search{
+    margin-left: 25px;
+    margin-top: 3px;
+}
+nav .dropdown-menu{
+    background-color: var(--primary-deep-green-color);
+}
+nav .nav-btn{
+    background-color: var(--primary-deep-green-color);
+    color: var(--primary-_white-color);
+    border:  none;
+    width: 218px;
+    height: 55px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+nav .nav-menu-btn{
+    width: 35px;
+    height: 21px;
+}
+.heroImg{
+    background-image: url(/img/hero_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+}
+.hero-main-text{
+    font-weight: bold;
+    color: var(--primary-_white-color);
+}
+.hero-box-text{
+    margin-top: 80px;
+}
+.hero-box-text p{
+    margin-bottom: 30px;
+}
+.btn-primary{
+    background-color: var(--primary-_white-color);
+    border: none;
+    color: var(--primary-black-green-color);
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.hero-box-text .hero-small-img{
+    line-height: 5px;
+}
+.hero-box-text .hero-small-img img{
+    margin-left: -25px;
+    height: 50px;
+}
+.hero-box-text .hero-small-img img:first-child{
+    margin-left: 0;
+}
+.hero-box-text .k{
+    font-weight: 48px;
+    color: var(--primary-_white-color);
+}
+.tw{
+    background-color: var(--primary-_white-color);
+    color: var(--primary-deep-green-color);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.social-text span{
+    margin-right: 10px;
+}
+/* navbar design end */
