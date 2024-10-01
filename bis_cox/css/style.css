@@ -9,8 +9,8 @@
     --primary-_white-color: #FFFFFF;
     --primary-deep-green-color: #27B671;
     --primary-black-green-color: #243F37;
-    --logo-primary-color: #ff3f34;
-    --logo-secondary-color: #2ed573;
+    --primary-black-color: #131E1B;
+    --primary-gray-color: #747474;
     --plan-color: #fff;
  }
  
@@ -40,16 +40,19 @@ nav .nav-btn{
     margin-right: 20px;
     border-radius: 5px;
 }
+nav .nav-btn:hover{
+    background-color: var(--primary-black-green-color);
+}
 nav .nav-menu-btn{
     width: 35px;
     height: 21px;
 }
 .heroImg{
-    background-image: url(/img/hero_img.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('/img/hero_img.png');
     background-size: cover;
-    height: 160vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 .hero-main-text{
     font-weight: bold;
@@ -94,4 +97,44 @@ nav .nav-menu-btn{
 .social-text span{
     margin-right: 10px;
 }
+@media (max-width: 768px) {
+    .heroImg{
+        background-position: center;
+    }
+    .company-info{
+        margin-top: -250px;
+    }
+}
 /* navbar design end */
+
+/* company design start */
+.agency{
+    font-family: Mulish;
+    font-weight:bolder;
+    color: var(--primary-black-color) ;
+}
+.agency-text{
+    color: var(--primary-gray-color);
+    font-size: 15px;
+}
+.card-title{
+    font-family: Mulish;
+    color: var(--primary-black-green-color);
+}
+.card-text{
+    color: var(--primary-gray-color);
+    font-family: Inter;
+    font-size: 15px;
+}
+.text-body-secondary{
+    color: var(--primary-black-green-color);
+}
+.card-title .same-img{
+    width: 39px;
+    height: 39px;
+    margin-top: -5px;
+}
+.card{
+    border: none !important;
+}
+/* company design end */
